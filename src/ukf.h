@@ -106,10 +106,6 @@ public:
      * @param P_pred
      */
     void PredictMeanAndCovariance(VectorXd* x_pred, MatrixXd* P_pred);
-    void PredictLidarMeasurement(VectorXd* z_out, MatrixXd* S_out);
-    void PredictRadarMeasurement(VectorXd* z_out, MatrixXd* S_out);
-    void UpdateState(VectorXd* x_out, MatrixXd* P_out);
-
 
     /**
      * ProcessMeasurement
